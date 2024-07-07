@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Shared style */
+
+header {
+    margin: 0  auto;
+}
+
+
+
+/* Heading Style */
+
+
+
+.banner-container {
+    background-image: url("../images/banner-image.png"), linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-blend-mode: overlay;
+    width: 1267px;
+    min-height: 576px;
+    margin-top: 48px;
+    border-radius: 15px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 576px;
+}
+
+
+.banner-content p {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.banner-content h1 {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 69px;
+    font-weight: 900;
+    text-align: center;
+}
+
