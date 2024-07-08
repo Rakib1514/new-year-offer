@@ -15,14 +15,21 @@
 
 /* Shared style */
 
-header, .new-year-offer {
-    margin: 0  auto;
+header,
+.new-year-offer,
+.welcome-msg {
+    margin: 0 auto;
 }
 
 .theme-color {
     color: #FF0000;
 }
 
+.p-style-primary {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+}
 
 
 /* Heading Style */
@@ -30,11 +37,11 @@ header, .new-year-offer {
 
 
 .banner-container {
-    background-image: url("../images/banner-image.png"), linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-image: url("../images/banner-image.png"), linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-color: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     background-blend-mode: overlay;
     width: 1267px;
     min-height: 576px;
@@ -86,7 +93,7 @@ header, .new-year-offer {
     font-size: 23px;
     font-weight: 500;
     margin: 0 0 0 0;
-    font-family: "Inter", sans-serif; 
+    font-family: "Inter", sans-serif;
 }
 
 .new-year-offer h3 {
@@ -106,3 +113,63 @@ header, .new-year-offer {
     height: 100%;
 }
 
+/* welcome massage section style */
+
+.welcome-msg {
+    width: 1267px;
+    height: 576px;
+    margin-top: 115px;
+
+}
+
+.welcome-msg-container {
+    background-image: url(../images/welcome-msg-bg.png) , linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-msg-content {
+    margin: 0 0 0 120px;
+}
+
+
+.welcome-msg-img {
+    width: 335px;
+    height: 445px;
+    margin-right: 103px;
+}
+
+
+.welcome-msg-container h3 {
+    font-size: 61px;
+    font-weight: 900px;
+    font-family: "Merriweather", serif;
+    letter-spacing: 11%;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.welcome-msg-container p {
+    width: 669px;
+    font-family: "Inter", sans-serif;
+    margin: 0 0 46px 0;
+}
+
+
+.welcome-msg-container button {
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+}
