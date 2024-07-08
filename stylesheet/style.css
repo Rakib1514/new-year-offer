@@ -17,7 +17,8 @@
 
 header,
 .new-year-offer,
-.welcome-msg {
+.welcome-msg,
+.event-schedule {
     margin: 0 auto;
 }
 
@@ -123,7 +124,7 @@ header,
 }
 
 .welcome-msg-container {
-    background-image: url(../images/welcome-msg-bg.png) , linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-image: url(../images/welcome-msg-bg.png), linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +146,7 @@ header,
     width: 335px;
     height: 445px;
     margin-right: 103px;
-    margin-left: 37px ;
+    margin-left: 37px;
 }
 
 
@@ -174,4 +175,43 @@ header,
     font-size: 19px;
     font-weight: 700;
     color: white;
+}
+
+
+/* Event schedule style */
+
+.event-schedule {
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 1267px;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 115px;
+    border-radius: 15px;
+}
+
+.event-schedule-content {
+    text-align: center;
+    width: 527px;
+    height: 161px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 46px;
+}
+
+.event-join-btn button {
+    font-size: 19px;
+    font-weight: 700;
+    padding: 15px 30px;
+    margin: 0;
+    border-radius: 7px;
+    background-color: #FF0000;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: none;
 }
