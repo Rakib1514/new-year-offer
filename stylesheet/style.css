@@ -145,6 +145,7 @@ header,
     width: 335px;
     height: 445px;
     margin-right: 103px;
+    margin-left: 37px ;
 }
 
 
@@ -161,6 +162,7 @@ header,
     width: 669px;
     font-family: "Inter", sans-serif;
     margin: 0 0 46px 0;
+    font-size: 17px;
 }
 
 
