@@ -335,7 +335,27 @@ section {
     width: 225px;
     height: 225px;
     position: absolute;
-    bottom: 40%;  
+    bottom: 40%;
     right: 7%;
     transform: rotate(-10.21deg);
+}
+
+/* portfolio section style */
+
+.shop-portfolio {
+    width: 1267px;
+    height: 1116px;
+    
+
+
+}
+
+.portfolio-title {
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
 }
