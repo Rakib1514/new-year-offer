@@ -15,11 +15,15 @@
 
 /* Shared style */
 
-header,
+/* header,
 .new-year-offer,
 .welcome-msg,
 .event-schedule {
     margin: 0 auto;
+} */
+
+header, section {
+    margin: 0 auto 19px ;
 }
 
 .theme-color {
@@ -214,4 +218,12 @@ header,
     color: white;
     font-family: "Inter", sans-serif;
     border: none;
+}
+
+/* promo event style */
+
+.promo-event {
+    display: flex;
+    width: 1267px;
+    height: 444px;
 }
