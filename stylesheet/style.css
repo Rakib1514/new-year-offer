@@ -344,7 +344,7 @@ section {
 
 .shop-portfolio {
     width: 1267px;
-    height: 1116px;
+    max-height: 1116px;
 }
 
 .portfolio-title {
@@ -357,117 +357,24 @@ section {
     text-transform: capitalize;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* responsive */
-/* responsive */
-/* responsive */
-
-
-@media (max-width: 1200px) {
-    .banner-content h1 {
-        font-size: 48px;
-    }
-
-    .banner-content p {
-        font-size: 24px;
-    }
-
-    .new-year-offer h2 {
-        font-size: 64px;
-    }
-
-    .new-year-offer h3 {
-        font-size: 36px;
-    }
-
-    .welcome-msg-container h3 {
-        font-size: 48px;
-    }
-
-    .event-schedule-content {
-        font-size: 24px;
-    }
+.portfolio-subtitle {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
 
-@media (max-width: 768px) {
-    .banner-content h1 {
-        font-size: 36px;
-    }
-
-    .banner-content p {
-        font-size: 18px;
-    }
-
-    .new-year-offer h2 {
-        font-size: 48px;
-    }
-
-    .new-year-offer h3 {
-        font-size: 24px;
-    }
-
-    .welcome-msg-container h3 {
-        font-size: 36px;
-    }
-
-    .event-schedule-content {
-        font-size: 20px;
-    }
-
-    .promo-event {
-        flex-direction: column;
-    }
-
-    .promo-image {
-        height: auto;
-        width: 100%;
-    }
-
-    .promo-offer {
-        width: 100%;
-        text-align: center;
-    }
+.portfolio-images {
+    /* border: 1px solid tomato; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 407px);
+    gap: 24px;
 }
 
-@media (max-width: 480px) {
-    .banner-content h1 {
-        font-size: 24px;
-    }
-
-    .banner-content p {
-        font-size: 16px;
-    }
-
-    .new-year-offer h2 {
-        font-size: 36px;
-    }
-
-    .new-year-offer h3 {
-        font-size: 18px;
-    }
-
-    .welcome-msg-container h3 {
-        font-size: 24px;
-    }
-
-    .event-schedule-content {
-        font-size: 18px;
-    }
+.portfolio-images img {
+    width: 100%;
+    height: auto;
 }
+
+
